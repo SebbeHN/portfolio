@@ -13,6 +13,9 @@ Detta är min personliga portfolio byggd med **React** och **Tailwind CSS**. Hä
 - Playwright
 - xUnit
 - Postman
+- HTML
+- Javascript
+- Python
 
 ## 📁 Struktur
 
