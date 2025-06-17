@@ -1,0 +1,142 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# --- Builds / Outputs ---
+dist/
+build/
+.next/
+out/
+.cache/
+.cache-loader/
+.babel_cache/
+
+# --- Environment Variables ---
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+*.log
+*.log.*
+log/
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Editor Directories & Files ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+.nfs*
+
+# --- Git ---
+.git/
+.gitattributes
+.gitmodules
+*.orig
+
+# --- Tests / Coverage ---
+coverage/
+.nyc_output/
+*.lcov
+jest-cache/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# --- Typescript ---
+*.tsbuildinfo
+
+# --- Misc Caches ---
+.cache/
+tmp/
+temp/
+.eslintcache
+.stylelintcache
+*.tgz
+.pnp/
+.pnp.js
+
+# --- Deployment ---
+.vercel/
+.netlify/
+firebase-debug.log
+firebase.json
+
+# --- Optional OS/File Watchers ---
+.watchmanconfig
+
+# --- Image/Media Editors ---
+*.psd
+*.xcf
+*.ai
+*.sketch
+*.fig
+*.swp
+
+# --- Local configuration ---
+*.local
+*.sw?
+*.bak
+*.tmp
+*.old
+*.backup
+
+# --- Markdown caches ---
+*.markdown.cache
+
+# --- Other ---
+*.sourcemap
+*.map
