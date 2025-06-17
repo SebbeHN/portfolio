@@ -24,7 +24,7 @@ Detta är min personliga portfolio byggd med **React** och **Tailwind CSS**. Hä
 
 ## 🚀 Deployment
 
-Kommer att publiceras på [Vercel](https://vercel.com) eller [Netlify](https://netlify.com).
+Kommer att publiceras på https://portfolio-shn-seven-27.vercel.app
 
 ## 📬 Kontakt
 
