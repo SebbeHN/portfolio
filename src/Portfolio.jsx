@@ -170,7 +170,7 @@ export default function Portfolio() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/CV%20Sebastian%20Holmberg%20Nilsson.pdf" download
+              <a href="/CV_Sebastian_Holmberg_Nilsson.pdf" download
                  className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all">
                 Ladda ner CV
               </a>
