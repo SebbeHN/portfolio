@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap');
-.project__image-wrap { height: 240px; }
-.project--featured .project__image-wrap { height: 390px; }
+.project__image-wrap,
+.project--featured .project__image-wrap { height: 230px; }
 @media (max-width: 700px) {
 	.project--featured .project__image-wrap,
-	.project__image-wrap { height: 240px; }
+	.project__image-wrap { height: 190px; }
 }
 :root { --ink: #171716; --paper: #f4f0e8; --muted: #a29d94; --line: rgba(244,240,232,.18); --acid: #d4f069; --orange: #f47752; }
 main { overflow: hidden; background: var(--ink); } .shell { width: min(1180px, calc(100% - 80px)); margin: 0 auto; }
