@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap');
+.project__image-wrap { height: 240px; }
+.project--featured .project__image-wrap { height: 390px; }
+@media (max-width: 700px) {
+	.project--featured .project__image-wrap,
+	.project__image-wrap { height: 240px; }
+}
 :root { --ink: #171716; --paper: #f4f0e8; --muted: #a29d94; --line: rgba(244,240,232,.18); --acid: #d4f069; --orange: #f47752; }
 main { overflow: hidden; background: var(--ink); } .shell { width: min(1180px, calc(100% - 80px)); margin: 0 auto; }
 .nav { height: 94px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }.wordmark { font-size:22px; font-weight:700; letter-spacing:-.08em; }.wordmark span { color:var(--acid); }.nav__links { display:flex; align-items:center; gap:34px; color:var(--muted); font-size:13px; }.nav__links a { transition:color .2s; }.nav__links a:hover { color:var(--paper); }.nav__contact { color:var(--paper); border:1px solid var(--line); padding:11px 15px; }.nav__contact span, .text-link span, .email-link span { color:var(--acid); margin-left:10px; }
