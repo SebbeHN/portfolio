@@ -16,7 +16,11 @@ main { overflow: hidden; background: var(--ink); } .shell { width: min(1180px, c
 
 .project__image-wrap,
 .project--featured .project__image-wrap { height: 230px; }
+.project__meta { padding-top: 22px; }
+.project__meta p { color: #c0bbb2; line-height: 1.5; max-width: 560px; }
+.project__details { color: #c0bbb2; }
 @media (max-width: 700px) {
 	.project__image-wrap,
 	.project--featured .project__image-wrap { height: 190px; }
+	.project__meta { padding-top: 16px; }
 }
