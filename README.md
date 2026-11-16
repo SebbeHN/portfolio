@@ -46,7 +46,13 @@ npm run build
 - GitHub: [github.com/SebbeHN](https://github.com/SebbeHN)
 - LinkedIn: [Sebastian Holmberg Nilsson](https://www.linkedin.com/in/sebastian-holmberg-nilsson-02a4161a1/)
 
-## CV
+## CV och portfolio
 
-CV:t finns som [Sebastian_holmberg_nilsson_cv.pdf](public/Sebastian_holmberg_nilsson_cv.pdf) i `public`-mappen och visas via en länk i portfolion.
+CV:t finns som [Sebastian_holmberg_nilsson_cv.pdf](public/Sebastian_holmberg_nilsson_cv.pdf) i `public`-mappen och kan laddas ner från portfolion.
+
+En separat [portfolioöversikt som PDF](public/Sebastian_Holmberg_Nilsson_Portfolio.pdf) sammanfattar profil, utvalda projekt, kompetenser och kontaktuppgifter. Länken finns på startsidan och i sidfoten. Uppdatera PDF:en efter ändringar genom att köra:
+
+```bash
+swift scripts/generate-portfolio-pdf.swift
+```
 
